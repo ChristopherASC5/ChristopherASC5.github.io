@@ -8,12 +8,24 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    /* background-color: #333; */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-top:300px;
+}
+#about{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
     background-color: #333;
     position: fixed;
     top: 0;
     width: 100%;
 }
-
 li {
     float: left;
 }
@@ -43,13 +55,13 @@ p{
     flex-grow: .6;
     align-items: flex-start;
     color: white;
-    Font-size: 60px;
+    Font-size: 100px;
     font-family: 'Amatic SC', cursive;
     flex-direction: column;
 
 }
 span{
-    font-size: 14px;
+    font-size: 18px;
     color: white;
     font-family: 'Amatic SC', cursive;
     display: flex;
@@ -61,21 +73,27 @@ h2{
     color: whitesmoke;
 }
 #profile{
-    max-height:200px;
-    max-width: 150px;
+    max-height:300px;
+    max-width:200px;
+    padding: 15px;
+    display: block;
     float: left;
-    
 }
 #info{
     border: solid 0px #333;
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    border-radius: 50px;
+    /* flex-direction: column;
+    align-items: flex-start; */
     padding: 10px;
     font-size: 20px;
     color: whitesmoke;
     background-color:grey;
-
-
-
+}
+#cover{
+    background-image: url("download-1280x960-resolution-of-high-definition-background-cool.jpg");
+    
+}
+#about_page{
+    background-color: white;
 }
